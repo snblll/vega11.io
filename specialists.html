@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialists</title>
+    <link rel="stylesheet" href="\css\style.css">
+</head>
+<body>
+    <div class="spec-background">
+        <div class="white-background">
+            <div class="left-side">
+                <p class="realtor-services">Если заинтересовались <br> нашими услугами, оставьте <br> свои контактные данные:</p>
+                <form id="subscribe-form" onsubmit="subscribe(event)">
+                    <label for="name">Ваше имя:</label><br>
+                    <input type="text" id="name" required> <br><br>
+            
+                    <label for="telephone-number">Ваш телефон:</label> <br>
+                    <input type="tel" id="tel" required> <br><br>
+                
+                    <label for="email" class="email">Ваш e-mail:</label> <br>
+                    <input type="email" id="email" required> <br><br>
+                    
+                    <button type="submit" class="submit">Отправить!</button> 
+                    <div id="message"></div>
+                </form>
+            </div>
+        </div>
+
+        <div class="coffee-background">
+            <div class="right-side">
+                <p class="realtor-services-2">Актуальные предложения:</p>
+                <div class="slider-container">
+                    <div class="slider">
+                        <img src="/img/11.jpg" width="734" height="734" alt="Риэлтор 1">
+                        <img src="/img/22.jpg" width="734" height="734" alt="Риэлтор 2">
+                        <img src="/img/33.jpg" width="734" height="734" alt="Риэлтор 3">
+                    </div>
+                    <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+                    <button class="next-button" aria-label="Посмотреть следующий слайд">&gt;</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
