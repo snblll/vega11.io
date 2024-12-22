@@ -1,0 +1,466 @@
+body{
+    margin: 0;
+}
+
+.centered-elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: #D9D9D9;
+    display: block;
+    width: 100%;
+    margin: 0px;
+    height: 1080px;
+    background-image: url("/img/фон.png");
+}
+.nav-menu{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+}
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-button{
+    font-family: "Anonymous Pro";
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.social-media-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 345px;
+}
+
+.logos-navbar{
+    fill: #695C5C;
+    width: 51px;
+    height: 32px;
+    margin-right: 64px;
+}
+
+.greetings{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.label-greetings{
+    font-family: "Alex Brush";
+    font-weight: 200;
+    margin: 0;
+    margin-top: 370px;
+    font-size: 128px;
+    color: #D9D9D9;
+}
+.description-greetings{
+    font-family: "Anonymous Pro";
+    font-weight: 400;
+    margin-top: 0px;
+    font-size: 40px;
+    font-style: normal;
+    color:#D9D9D9;
+}
+div.greetings-button{
+    font-family: "Anonymous Pro";
+    font-size: 24px;
+    background-color: #D9D9D9;
+    width: 180px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 202px;
+    margin-left: 45.31%;
+    border-radius: 38px;
+}
+.nav-2{
+    background-color: #695C5C;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 105px;
+    width: 100%;
+}
+.services{
+    color: #D9D9D9;
+    font-family: "Anonymous Pro";
+    font-size: 64px;
+    margin-left: 845px;
+    margin-top: 15px;
+}
+.background-image-2{
+    background-color: #D9D9D9;
+    display: block;
+    width: 100%;
+    margin: 0px;
+    height: 740px;
+    background-image: url("/img/2.png");
+}
+.nav-2-1{
+    background-color: #695C5C; 
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+}
+.curtain{
+    color: #D9D9D9;
+    font-family: "Arsenal";
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    margin: 0;
+    width: 25%;
+    text-align: center;
+}
+
+.curtains-row{
+    display: flex;
+    height: 360px;
+}
+.curtains-content{
+    width: 25%;
+    align-items: center;
+}
+.grey{
+    background-color: #A0A0A4;
+}
+.white{
+    background-color: #D9D9D9;
+}
+
+.description-curtains{
+    margin: 0;
+    font-family: "Arsenal";
+    font-size: 29px;
+    text-align: center;
+    align-self: center;
+}
+
+.curtains-content{
+    padding: 30px 0;
+}
+
+.nav-3{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 140px;
+    width: 100%;
+}
+.services-2{
+    color: #000000;
+    font-family: "Anonymous Pro";
+    font-size: 64px;
+    margin-left: 845px;
+    margin-top: 40px;
+}
+.background-image-3{
+    background-color: #D9D9D9;
+    display: block;
+    width: 100%;
+    margin: 0px;
+    height: 1080px;
+    background-image: url("/img/3.png");
+}
+.background-image-3-1{
+    display:inline-block;
+    width: 650px;
+    margin-top: 113px;
+    margin-left: 1215px;
+    height: 854px;
+    background-color: #695C5C;
+    border-radius: 35px;
+}
+.text-3{
+    color: #D9D9D9;
+    font-family: "Arsenal";
+    font-weight: 400;
+    font-size: 34px;
+    font-style: normal;
+    text-align: center;
+    margin: 90px 30px;
+}
+.nav-3-1{
+    background-color: #D9D9D9;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.nav-button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-button a:hover{
+    text-decoration: none;
+    color: #927474;
+}
+
+.greetings-button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.greetings-button:hover{
+    text-decoration: none;
+    background-color: aliceblue;
+}
+.nav-4{
+    font-family: "Alegreya Sans";
+    background-color: #A0A0A4;
+    margin: 0;
+    height: 1280px;
+    width: 100%;
+    padding-top: 20px;
+}
+.services-3{
+    color: #000000;
+    font-family: "Anonymous Pro";
+    font-size: 64px;
+    margin-top: 40px;
+    text-align: center;
+}
+.background-image-4-1{
+    display: flex;
+    width: 1810px;
+    margin-left: 55px;
+    height: 1080px;
+    background-color: #695C5C;
+    border-radius: 35px;
+}
+.background-image-4-1-1{
+    width: 830px;
+    height: 838px;
+    margin-left: 55px;
+    margin-top: 121px;
+    background-color: #D9D9D9;
+    border-radius: 65px;
+}
+
+.text-4{
+    color: #000000;
+    font-family: "Arsenal";
+    font-weight: 400;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+}
+.background-image-4-1-2{
+    width: 830px;
+    height: 838px;
+    margin-left: 72px;
+    margin-top: 121px;
+    background-color: #D9D9D9;
+    border-radius: 65px;
+}
+
+.images-realt{
+    width: 754px;
+    height: 484px;
+}
+
+.review-1{
+    background-color: #D9D9D9;
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 20px;
+}
+
+.review-2{
+    background-color: #D9D9D9;
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 20px;
+}
+
+footer{
+    font-family: "Alegreya Sans";
+    background-color: #695C5C;
+    display: flex;
+}
+
+.carta{
+    margin: 40px 0px;
+    margin-left:110px ;
+    color: #ffff;
+    text-align: center;
+    font-size: 36px;
+}
+
+.maps{
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.street{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.metro{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-text{
+    text-align: center;
+    color: #ffff;
+    margin: 0 90px;
+    font-size: 36px;
+}
+
+.footer-text-off{
+    margin: 130px 90px;
+}
+
+.logo-navbar{
+    width: 51px;
+    height: 32px;
+    margin-right: 30px;
+}
+
+.sub{
+    margin-top: 130px;
+}
+
+.spec-background{
+    font-family: "Arsenal";
+    display: flex;
+}
+
+.white-background{
+    background-color: #D9D9D9;
+    width: 746px;
+    height: 1080px;
+}
+
+.coffee-background{
+    background-color: #695C5C;
+    width: 1174px;
+    height: 1080px;
+}
+.realtor-services{
+    color: #695C5C;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+}
+form{
+    background-color: #695C5C;
+    width: 558px;
+    height: 734px;
+    margin: 0 auto;
+    align-content: center;
+    border-radius: 35px;
+    text-align: center;
+    color: azure;
+    font-size: 32px;
+}
+
+#tel{
+    width:350px;
+    height:40px;
+    background-color: #D9D9D9;
+}
+
+#name{
+    width:350px;
+    height:40px;
+    background-color: #D9D9D9;
+}
+
+#email{
+    width:350px;
+    height:40px;
+    background-color: #D9D9D9;
+}
+
+.submit{
+    width:236px ;
+    height:78px ;
+    border-radius: 35px;
+    background-color: #D9D9D9;
+    margin-top: 55px;
+}
+
+.submit:hover{
+    background-color: #f1eded;
+}
+
+#message{
+    margin-top: 20px;
+}
+
+.realtor-services-2{
+    margin-top: 70px;
+    color: #D9D9D9;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+}
+
+.page-title {
+    text-align: center;
+  }
+  
+  .slider-container {
+    position: relative;
+    width: 734px;
+    height: 734px;
+    border-radius: 30px;
+    margin-top: 85px;
+    margin-left: 220px;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #695C5C;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
